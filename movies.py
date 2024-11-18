@@ -14,8 +14,8 @@ app = Flask(__name__, template_folder="movies_templates",static_folder="movies_t
 #path = kagglehub.dataset_download("parasharmanas/movie-recommendation-system")
 #print("Path to dataset files:", path)
 
-movies_path = '/home/ombir/svd_model/datasets/movies.csv'
-ratings_path = '/home/ombir/svd_model/datasets/ratings.csv'
+movies_path = 'datasets/movies.csv'
+ratings_path = 'datasets/ratings.csv'
 
 # Load datasets
 movies = pd.read_csv(movies_path)
